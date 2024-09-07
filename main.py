@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from confluent_kafka import Producer
 from confluent_kafka.admin import AdminClient, NewTopic
+
 from faker import Faker
 from dotenv import load_dotenv
 import os
